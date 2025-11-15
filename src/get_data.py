@@ -1,5 +1,5 @@
 import requests
 
 
-def fetch_data(url: str):
+def fetch_json(url: str):
     return requests.get(url).json()
